@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\USUARIO\\Documents\\usmp\\practica1\\practica1\\practica1.csproj": {}
+    "C:\\Users\\patty\\OneDrive\\Desktop\\PRACTICA USMP PROGRAMACION\\practica1\\practica1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\USUARIO\\Documents\\usmp\\practica1\\practica1\\practica1.csproj": {
+    "C:\\Users\\patty\\OneDrive\\Desktop\\PRACTICA USMP PROGRAMACION\\practica1\\practica1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\USUARIO\\Documents\\usmp\\practica1\\practica1\\practica1.csproj",
+        "projectUniqueName": "C:\\Users\\patty\\OneDrive\\Desktop\\PRACTICA USMP PROGRAMACION\\practica1\\practica1.csproj",
         "projectName": "practica1",
-        "projectPath": "c:\\Users\\USUARIO\\Documents\\usmp\\practica1\\practica1\\practica1.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\USUARIO\\Documents\\usmp\\practica1\\practica1\\obj\\",
+        "projectPath": "C:\\Users\\patty\\OneDrive\\Desktop\\PRACTICA USMP PROGRAMACION\\practica1\\practica1.csproj",
+        "packagesPath": "C:\\Users\\patty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\patty\\OneDrive\\Desktop\\PRACTICA USMP PROGRAMACION\\practica1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\patty\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
