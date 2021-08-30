@@ -1,0 +1,34 @@
+@model practica1.Models.Matriculas
+@{
+    ViewData["Title"] = "VENTAS";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Game Store</h1>
+
+    <form asp-controller="Matriculas" asp-action="Create">
+    
+    <label asp-for="Name" class="control-label"></label>
+    <input asp-for="Name" class="form-control form-control-sm" type="text" placeholder="Escriba los apellidos" aria-label=".form-control-sm"/>
+    <label asp-for="Categoria" class="form-label"></label>
+    <input asp-for="Categoria" class="form-control form-control-sm" type="text" placeholder="Escriba los nombres" aria-label=".form-control-sm" />
+    <label asp-for="Precio" class="form-class"></label>
+    <input asp-for="Precio" class="form-control"/>
+    <label asp-for="Descuento" class="control-label"></label>
+    <input asp-for="Descuento" class="form-control" />
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Registrar</button> 
+    </div>              
+</form>
+     
+    <h1>@ViewData["Message"]</h1>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+
+
+
